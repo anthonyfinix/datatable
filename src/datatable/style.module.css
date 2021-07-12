@@ -1,0 +1,25 @@
+.table{
+    margin:10px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0px;
+}
+.thead{
+    background-color: rgb(225, 225, 225);
+}
+.cell{
+    padding: 10px;
+    background-color: rgb(238, 238, 238);
+    border: 0px;
+    outline: 0px;
+}
+.tr{
+    /* padding: 10px;
+    display: flex; */
+}
+.td{
+
+}
+.th{
+}

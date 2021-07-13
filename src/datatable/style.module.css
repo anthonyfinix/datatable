@@ -1,12 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.wrapper{
+    height: 600px !important;
+    overflow-y: scroll;
+}
 .table{
-    margin:10px;
-    height: 100%;
     width: 100%;
     text-align: left;
     border-spacing: 0px;
+    position: relative;
 }
 .thead{
     background-color: rgb(225, 225, 225);
+    position: sticky;
 }
 .cell{
     padding: 10px;
@@ -14,12 +24,11 @@
     border: 0px;
     outline: 0px;
 }
-.tr{
-    /* padding: 10px;
-    display: flex; */
-}
+.tr{}
 .td{
-
 }
 .th{
+    position: sticky;
+    top: 0;
+    height: 30px;
 }
